@@ -1,0 +1,2 @@
+include LICENSE
+include libedax4py/libedax.dylib
