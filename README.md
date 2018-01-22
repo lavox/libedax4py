@@ -42,7 +42,7 @@ python example1.py
 
 OSX
 ```sh
-export DYLD_LIBRARY_PATH=~/libedax/lib/libedax4j.jar:~/libedax/lib/jna-4.5.1.jar
-java -Djna.library.path=/Users/atsushi/git/edax-reversi/bin Example1
+export DYLD_LIBRARY_PATH=~/libedax/bin
+python example1.py
 ```
 
