@@ -28,7 +28,7 @@ and see examples in example folder.
 
 Usage
 ------
-To you execute your java application, you must set;
+To execute your python script, you must set;
 
 * path to libedax.dylib as environment variable `DYLD_LIBRARY_PATH`. (OSX)
 * path to libedax-x86.dll as environment variable `PATH`. (Windows 32-bit)
