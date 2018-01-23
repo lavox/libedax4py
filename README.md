@@ -6,7 +6,7 @@ can execute functions equivalent to edax commands from python.
 
 To use libedax4py, you need libedax (C library).
 
-https://github.com/lavox/edax-reversi/tree/libedax
+https://github.com/lavox/edax-reversi/releases
 
 Installation
 -------------
@@ -22,7 +22,7 @@ API documentation
 
 Currently, see Java documentation.
 
-https://github.com/lavox/libedax4j/tree/master/docs/javadoc
+https://lavox.github.io/libedax4j/javadoc/
 
 and see examples in example folder.
 
@@ -33,14 +33,48 @@ To execute your python script, you must set;
 * path to libedax.dylib as environment variable `DYLD_LIBRARY_PATH`. (OSX)
 * path to libedax-x86.dll as environment variable `PATH`. (Windows 32-bit)
 
+You can specify book file and eval file with `libedax_initialize()` function.
 
+Example
+--------
 Windows:
+```
+C:¥
++-- libedax¥
+    +-- bin¥
+    |   +-- libedax-x86.dll
+    +-- lib¥
+    |   +-- libedax4j.jar
+    |   +-- jna-4.5.1.jar
+    +-- data¥
+    |   +-- book.dat
+    |   +-- eval.dat
+    +-- example¥
+        +-- example1.py
+```
+If directory structure is as above, execute the following commands in `C:¥libedax¥example` directory.
+
 ```sh
 set PATH=%PATH%;C:¥libedax¥bin
 python example1.py
 ```
 
 OSX
+```
+HOME_DIRECTORY
++-- libedax/
+    +-- bin/
+    |   +-- libedax.dylib
+    +-- lib/
+    |   +-- libedax4j.jar
+    |   +-- jna-4.5.1.jar
+    +-- data/
+    |   +-- book.dat
+    |   +-- eval.dat
+    +-- example¥
+        +-- example1.py
+```
+If directory structure is as above, execute the following commands in `HOME_DIRECTORY/libedax/example` directory.
 ```sh
 export DYLD_LIBRARY_PATH=~/libedax/bin
 python example1.py
