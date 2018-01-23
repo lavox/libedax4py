@@ -20,11 +20,17 @@ API documentation
 ------------------
 (TBD)
 
-Currently, see Java documentation.
+Currently, see C-library documentation.
+
+https://lavox.github.io/libedax4py/html/libedax_8c.html
+
+You can use `DLL_API` function in `libedax.c`, `board.c` and `bit.c` via libedax4py. 
+
+Java documentation for libedax4j is available. Basically, libedax4py and libedax4j have same interface.
 
 https://lavox.github.io/libedax4j/javadoc/
 
-and see examples in example folder.
+Also, see examples in example folder.
 
 Usage
 ------
