@@ -4,7 +4,7 @@ from setuptools import setup, find_packages
 
 setup(
     name='libedax4py',
-    version='0.1.0',
+    version='0.1.1',
     description='Python wrapper for libedax.',
     long_description='Python wrapper for libedax.',
     author='lavox',
