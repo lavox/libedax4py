@@ -49,9 +49,6 @@ C:¥
 +-- libedax¥
     +-- bin¥
     |   +-- libedax-x86.dll
-    +-- lib¥
-    |   +-- libedax4j.jar
-    |   +-- jna-4.5.1.jar
     +-- data¥
     |   +-- book.dat
     |   +-- eval.dat
@@ -71,13 +68,10 @@ HOME_DIRECTORY
 +-- libedax/
     +-- bin/
     |   +-- libedax.dylib
-    +-- lib/
-    |   +-- libedax4j.jar
-    |   +-- jna-4.5.1.jar
     +-- data/
     |   +-- book.dat
     |   +-- eval.dat
-    +-- example¥
+    +-- example/
         +-- example1.py
 ```
 If directory structure is as above, execute the following commands in `HOME_DIRECTORY/libedax/example` directory.
