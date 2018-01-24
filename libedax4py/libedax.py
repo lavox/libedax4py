@@ -229,8 +229,8 @@ INSTANCE.edax_hint_next.argtypes = [POINTER(Hint)];
 INSTANCE.edax_stop.restype = None;
 INSTANCE.edax_stop.argtypes = [];
 
-INSTANCE.edax_stop.restype = c_bool;
-INSTANCE.edax_stop.argtypes = [c_char_p];
+INSTANCE.edax_move.restype = c_bool;
+INSTANCE.edax_move.argtypes = [c_char_p];
 
 INSTANCE.edax_opening.restype = c_char_p;
 INSTANCE.edax_opening.argtypes = [];
